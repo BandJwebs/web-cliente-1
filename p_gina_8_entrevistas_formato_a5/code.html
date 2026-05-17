@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+
+<html lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Entrevistas - Revista Bicentenario</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&amp;family=Plus+Jakarta+Sans:wght@400;600&amp;family=Open+Sans:wght@400;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "on-tertiary-fixed-variant": "#574500",
+                      "on-secondary": "#ffffff",
+                      "surface-container-highest": "#e1e3e4",
+                      "tertiary-fixed": "#ffe088",
+                      "on-background": "#191c1d",
+                      "surface-dim": "#d9dadb",
+                      "surface-container-low": "#f3f4f5",
+                      "surface": "#f8f9fa",
+                      "primary": "#002045",
+                      "inverse-on-surface": "#f0f1f2",
+                      "on-error-container": "#93000a",
+                      "surface-container-high": "#e7e8e9",
+                      "surface-bright": "#f8f9fa",
+                      "secondary-fixed-dim": "#a2c9ff",
+                      "on-error": "#ffffff",
+                      "primary-container": "#1a365d",
+                      "secondary-container": "#7db6ff",
+                      "on-secondary-fixed-variant": "#004881",
+                      "on-tertiary-container": "#4e3d00",
+                      "tertiary": "#735c00",
+                      "primary-fixed": "#d6e3ff",
+                      "on-surface-variant": "#43474e",
+                      "on-tertiary-fixed": "#241a00",
+                      "on-primary-fixed": "#001b3c",
+                      "surface-tint": "#455f88",
+                      "secondary": "#1960a3",
+                      "inverse-surface": "#2e3132",
+                      "outline": "#74777f",
+                      "surface-container": "#edeeef",
+                      "tertiary-container": "#cba72f",
+                      "on-secondary-fixed": "#001c38",
+                      "background": "#f8f9fa",
+                      "on-surface": "#191c1d",
+                      "on-primary": "#ffffff",
+                      "outline-variant": "#c4c6cf",
+                      "primary-fixed-dim": "#adc7f7",
+                      "error": "#ba1a1a",
+                      "secondary-fixed": "#d3e4ff",
+                      "on-primary-fixed-variant": "#2d476f",
+                      "on-primary-container": "#86a0cd",
+                      "on-secondary-container": "#00477f",
+                      "inverse-primary": "#adc7f7",
+                      "on-tertiary": "#ffffff",
+                      "tertiary-fixed-dim": "#e9c349",
+                      "surface-container-lowest": "#ffffff",
+                      "error-container": "#ffdad6",
+                      "surface-variant": "#e1e3e4"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "gutter": "16px",
+                      "column-gap": "24px",
+                      "margin-desktop": "32px",
+                      "base": "8px",
+                      "margin-mobile": "16px"
+              },
+              "fontFamily": {
+                      "headline-md": [
+                              "Montserrat"
+                      ],
+                      "subhead-lg": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "label-sm": [
+                              "Plus Jakarta Sans"
+                      ],
+                      "display-lg": [
+                              "Montserrat"
+                      ],
+                      "body-lg": [
+                              "Open Sans"
+                      ],
+                      "headline-lg": [
+                              "Montserrat"
+                      ],
+                      "body-md": [
+                              "Open Sans"
+                      ]
+              },
+              "fontSize": {
+                      "headline-md": [
+                              "24px",
+                              {
+                                      "lineHeight": "32px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "subhead-lg": [
+                              "20px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "label-sm": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "display-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-lg": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "700"
+                              }
+                      ],
+                      "body-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+      },
+          },
+        }
+      </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-background antialiased min-h-screen flex flex-col items-center py-8">
+<!-- TopAppBar -->
+<header class="bg-surface text-primary text-headline-md font-headline-md docked full-width top-0 border-b border-outline-variant flat no shadows w-full">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-4 w-full max-w-7xl mx-auto">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">school</span>
+<span class="text-headline-md font-headline-md font-bold text-primary uppercase tracking-tight">Unidad Educativa Municipal Bicentenario</span>
+</div>
+<div class="text-label-sm font-label-sm text-on-surface-variant">Issue #01</div>
+</div>
+</header>
+<!-- A5 Canvas Container -->
+<main class="w-[148mm] h-[210mm] bg-white p-[15mm] shadow-sm border border-outline-variant my-8 flex flex-col relative mx-auto overflow-hidden box-border">
+<!-- Header Section -->
+<div class="border-b border-outline-variant relative pb-4">
+<!-- Decorative accent -->
+<div class="absolute top-0 left-0 w-16 h-2 bg-tertiary"></div>
+<h1 class="text-display-lg font-display-lg text-primary mt-6 mb-4">Entrevistas</h1>
+<div class="border-l-4 border-tertiary pl-4 my-4">
+<p class="text-body-md font-body-md text-on-surface-variant italic leading-relaxed">
+                    "Esta sección quedará reservada para entrevistas a licenciados, docentes y autoridades de la institución. Aquí se podrán colocar preguntas, respuestas y fotos de los entrevistados cuando el contenido esté listo."
+                </p>
+</div>
+</div>
+<!-- Content Area: Q&A Layout Template -->
+<div class="flex-grow py-4 flex flex-col gap-6 overflow-hidden">
+<!-- Q&A Template 1 -->
+<div class="grid grid-cols-12 gap-4">
+<!-- Profile Image Placeholder -->
+<div class="col-span-12 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full bg-surface-container-high border-2 border-outline-variant mb-2 flex items-center justify-center shadow-sm overflow-hidden" data-alt="A professional headshot of a mature, distinguished male teacher in a modern academic setting. He is wearing a tailored suit and tie, smiling warmly. The lighting is bright and even, highlighting a polished, corporate-academic aesthetic. The background is softly blurred, showing hints of a bright, light-mode classroom or office environment. The overall mood is authoritative yet approachable." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBV7ZGgm6BVVi04hpVad97IjorsvnTySh8WoQEn5auVKn7KFkyIkEHFRem9lUO4AmG2TJOPg5ZafQhtADrf0hNIEFiYipk5ElFdyZ_0egL9yXkHYv1FRNaYIxELFUDujeEDDpnrUpD1IA5wdqXmpUD8aaOBg1oZE5Vn5xFhZ1ymGtEL4uOHtKvx2tIyAG-wHsh7KNmKFqXYvZmQRSrHrLzmJQOSShL6YVS2NomRmggoOEOwCDXWqVL1Y5TfrSrOFg4mD3105Jh0ols'); background-size: cover; background-position: center;">
+</div>
+<div class="text-center">
+<h3 class="text-subhead-lg font-subhead-lg text-primary">Nombre del Docente</h3>
+<p class="text-label-sm font-label-sm text-tertiary uppercase tracking-wider">Cargo / Asignatura</p>
+</div>
+</div>
+<!-- Q&A Content -->
+<div class="col-span-12 flex flex-col gap-4">
+<div class="bg-surface-container-lowest p-4 rounded-lg border border-outline-variant relative">
+<span class="absolute -top-3 -left-3 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-[10px]">Q1</span>
+<h4 class="text-body-lg font-subhead-lg text-on-surface mb-2 font-semibold">¿Pregunta de ejemplo para la entrevista?</h4>
+<p class="text-[12px] leading-[18px] text-on-surface-variant">
+                            Respuesta de ejemplo. El diseño está preparado para acomodar párrafos de texto que detallan las experiencias, opiniones y anécdotas del entrevistado. El espacio en blanco y la tipografía aseguran una lectura cómoda y profesional.
+                        </p>
+</div>
+<div class="bg-surface-container-lowest p-4 rounded-lg border border-outline-variant relative">
+<span class="absolute -top-3 -left-3 w-6 h-6 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-[10px]">Q2</span>
+<h4 class="text-body-lg font-subhead-lg text-on-surface mb-2 font-semibold">¿Segunda pregunta de la entrevista?</h4>
+<p class="text-[12px] leading-[18px] text-on-surface-variant">
+                            Segunda respuesta de ejemplo. Este diseño asimétrico permite que la atención fluya de la imagen del entrevistado hacia sus palabras, manteniendo un ritmo editorial limpio y moderno.
+                        </p>
+</div>
+</div>
+</div>
+<hr class="border-outline-variant w-1/3 mx-auto my-2"/>
+<!-- Q&A Template 2 -->
+<div class="grid grid-cols-12 gap-4 hidden">
+<!-- Hidden to fit A5 size naturally -->
+</div>
+</div>
+<!-- Footer Section (Page Bottom) -->
+<div class="mt-auto pt-4 text-center border-t border-outline-variant">
+<p class="text-body-lg font-headline-lg text-primary italic">
+                "Las voces del Bicentenario también cuentan su historia."
+            </p>
+</div>
+<!-- Page Numbering (Editorial detail) -->
+<div class="absolute bottom-[15mm] right-[15mm] text-label-sm font-label-sm text-outline font-bold">
+            08
+        </div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low text-primary text-body-md font-body-md docked full-width bottom-0 border-t border-outline-variant flat no shadows w-full mt-auto">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-base gap-4 w-full max-w-7xl mx-auto">
+<div class="text-subhead-lg font-subhead-lg text-tertiary">© 2024 Revista Bicentenario</div>
+<nav class="flex gap-6">
+<a class="text-on-surface-variant hover:underline decoration-tertiary underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Símbolos</a>
+<a class="text-on-surface-variant hover:underline decoration-tertiary underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Promoción</a>
+<a class="text-on-surface-variant hover:underline decoration-tertiary underline-offset-4 transition-opacity opacity-80 hover:opacity-100" href="#">Académico</a>
+</nav>
+</div>
+</footer>
+</body></html>
